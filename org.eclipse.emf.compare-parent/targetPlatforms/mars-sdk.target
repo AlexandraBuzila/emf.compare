@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde?>
-<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="EMF Compare based on Mars SDK" sequenceNumber="1418806227">
-  <locations>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.license.feature.group" version="1.0.1.v20140414-1359"/>
-      <repository location="http://download.eclipse.org/cbi/updates/license"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.emf.emfstore.modelmutator.feature.feature.group" version="0.9.3.M6"/>
-      <unit id="org.eclipse.emf.emfstore.fuzzy.feature.feature.group" version="0.9.3.M6"/>
-      <repository location="http://download.eclipse.org/emf-store/milestones/archive/0.9.3.M6"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.junit4" version="4.8.1.v20100525"/>
-      <repository location="http://download.eclipse.org/releases/indigo"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="com.google.guava" version="11.0.2.v201303041551"/>
-      <unit id="org.junit" version="4.11.0.v201303080030"/>
-      <unit id="javaewah" version="0.7.9.v201401101600"/>
-      <unit id="org.apache.commons.compress" version="1.6.0.v201310281400"/>
-      <unit id="org.kohsuke.args4j" version="2.0.21.v201301150030"/>
-      <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/egit/updates"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="fr.obeo.performance" version="1.0.0.201402071743"/>
-      <repository location="http://axelrichard.github.io/fr.obeo.performance/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.platform.sdk" version="0.0.0"/>
-      <unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.uml2.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.gmf.runtime.notation.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.ecoretools.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.papyrus.sdk.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.team.svn.feature.group" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/releases/mars"/>
-    </location>
-  </locations>
+<?pde version="3.8"?><target name="EMF Compare based on Mars SDK" sequenceNumber="1418806237">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.license.feature.group" version="1.0.1.v20140414-1359"/>
+<repository location="http://download.eclipse.org/cbi/updates/license"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.emfstore.modelmutator.feature.feature.group" version="0.9.3.M6"/>
+<unit id="org.eclipse.emf.emfstore.fuzzy.feature.feature.group" version="0.9.3.M6"/>
+<repository location="http://download.eclipse.org/emf-store/milestones/archive/0.9.3.M6"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.junit4" version="4.8.1.v20100525"/>
+<repository location="http://download.eclipse.org/releases/indigo"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.google.guava" version="11.0.2.v201303041551"/>
+<unit id="org.junit" version="4.11.0.v201303080030"/>
+<unit id="javaewah" version="0.7.9.v201401101600"/>
+<unit id="org.apache.commons.compress" version="1.6.0.v201310281400"/>
+<unit id="org.kohsuke.args4j" version="2.0.21.v201301150030"/>
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
+<repository location="http://download.eclipse.org/egit/updates"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="fr.obeo.performance" version="1.0.0.201402071743"/>
+<repository location="http://axelrichard.github.io/fr.obeo.performance/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.sdk" version="0.0.0"/>
+<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.transaction.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.uml2.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.gmf.runtime.notation.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.ecoretools.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.papyrus.sdk.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.team.svn.feature.group" version="0.0.0"/>
+<repository location="http://download.eclipse.org/releases/mars"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.papyrus.extra.feature.source.feature.group" version="1.1.0.201412171509"/>
+<unit id="org.eclipse.papyrus.extra.feature.feature.group" version="1.1.0.201412171509"/>
+<repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/mars/"/>
+</location>
+<location path="C:\Users\Alexandra\Oomph-Projects\Papyrus-Mars_Dev_IDE\ws\epf-richtext-1.5.1.6-win32" type="Directory"/>
+</locations>
 </target>

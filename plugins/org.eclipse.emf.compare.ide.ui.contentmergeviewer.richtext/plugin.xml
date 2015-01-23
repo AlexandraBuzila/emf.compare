@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.compare.contentMergeViewers">
+      <viewer
+            class="org.eclipse.emf.compare.ide.ui.contentmergeviewer.richtext.EMFCompareRichTextContentMergeViewerCreator"
+            extensions="org.eclipse.emf.compare.rcp.ui.eTextDiff"
+            id="org.eclipse.emf.compare.ide.ui.contentmergeviewer.richtext.EMFCompareRichTextMergeViewer"
+            label="%model.compare.richtext.feature">
+      </viewer>
+   </extension>
+
+</plugin>
