@@ -34,11 +34,12 @@ public class EMFCompareRichTextMergeViewer extends AbstractMergeViewer {
 		hookControl(fControl);
 	}
 
-	
 	private Control createControl(Composite parent) {
-		Composite composite = new Composite(parent, SWT.NONE);
+
+		final Composite composite = new Composite(parent, SWT.NONE);
 		GridLayoutFactory.fillDefaults().applyTo(composite);
-		GridDataFactory.fillDefaults().align(SWT.FILL, SWT.FILL).grab(true, true).applyTo(composite);
+		GridDataFactory.fillDefaults().grab(false, true).align(SWT.FILL, SWT.FILL)
+				.applyTo(composite);
 		richTextEditor = new RichTextEditor(composite, SWT.NONE);
 		return composite;
 	}
@@ -89,8 +90,8 @@ public class EMFCompareRichTextMergeViewer extends AbstractMergeViewer {
 	public String getText() {
 		return richTextEditor.getText();
 	}
-	
-	public RichTextEditor getEditor(){
+
+	public RichTextEditor getEditor() {
 		return richTextEditor;
 	}
 }
